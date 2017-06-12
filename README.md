@@ -32,7 +32,7 @@ Average RunTime: 60 Seconds
 
 Filtering for Largest mailboxes: 9 minutes  
 
-Filtering for smallest mailboxes:   
+Filtering for smallest mailboxes: 4 minutes  
 
 ## Contributing
 
