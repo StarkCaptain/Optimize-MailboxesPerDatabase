@@ -24,7 +24,7 @@ $Databases = Get-MailboxDatabase
 
 ## Script Processing Time
 
-Environment Tested on  
+Environment Tested on: Exchange 2016 CU5    
 Total Databases: 265  
 Total Mailboxes: 7175  
 
