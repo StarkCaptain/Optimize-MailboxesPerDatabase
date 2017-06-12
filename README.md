@@ -10,18 +10,22 @@ Download the Optimize-MailboxesPerDatabase.ps1 file
 
 ## Basic Examples
 Redistribute mailboxes  
+```powershell
   .\Optimize-MailboxesPerDatabase.ps1 -Databases 'USDAG-003', 'USDAG-062', 'USDAG-262'  
-
-Redistribute mailboxes, move the smallest mailboxes   
+```
+Redistribute mailboxes, move the smallest mailboxes  
+```powershell
   .\Optimize-MailboxesPerDatabase.ps1 -Databases 'USDAG-003', 'USDAG-062', 'USDAG-262' -BySize Smallest  
-
-Redistribute mailboxes, move the largest mailboxes  
+```
+Redistribute mailboxes, move the largest mailboxes
+```powershell
   .\Optimize-MailboxesPerDatabase.ps1 -Databases 'USDAG-003', 'USDAG-062', 'USDAG-262' -BySize Largest  
-  
-Redistribute mailboxes for all Databases  
+``` 
+Redistribute mailboxes for all Databases 
+```powershell
 $Databases = Get-MailboxDatabase  
 .\Optimize-MailboxesPerDatabase.ps1 -Databases $Databases.Name  
-
+```
 ## Script Processing Time
 
 Environment Tested on: Exchange 2016 CU5    
