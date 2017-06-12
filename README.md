@@ -38,6 +38,8 @@ Filtering for Largest mailboxes: 9 minutes
 
 Filtering for smallest mailboxes: 4 minutes  
 
+If the script processing time is to long you may want to look into incorporating Invoke-Parallel in to the script.   https://github.com/RamblingCookieMonster/Invoke-Parallel
+
 ## Contributing
 
 1. Fork it!
