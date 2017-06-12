@@ -32,7 +32,7 @@ Environment Tested on: Exchange 2016 CU5
 Total Databases: 265  
 Total Mailboxes: 7175  
 
-Using the WhatIf parameter. Creating New Move Requests during actuall run time will vary depending on your environment.  
+Creating New Move Requests during actuall run time will vary depending on your environment. Using the WhatIf parameter I measure the command run time with the below results.   
 
 Average RunTime: 60 Seconds  
 
