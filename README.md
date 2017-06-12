@@ -16,7 +16,11 @@ Redistribute mailboxes, move the smallest mailboxes
   .\Optimize-MailboxesPerDatabase.ps1 -Databases 'USDAG-003', 'USDAG-062', 'USDAG-262' -BySize Smallest  
 
 Redistribute mailboxes, move the largest mailboxes  
-  .\Optimize-MailboxesPerDatabase.ps1 -Databases 'USDAG-003', 'USDAG-062', 'USDAG-262' -BySize Largest    
+  .\Optimize-MailboxesPerDatabase.ps1 -Databases 'USDAG-003', 'USDAG-062', 'USDAG-262' -BySize Largest  
+  
+Redistribute mailboxes for all Databases  
+$Databases = Get-MailboxDatabase  
+.\Optimize-MailboxesPerDatabase.ps1 -Databases $Databases.Name  
 
 ## Script Processing Time
 
@@ -26,7 +30,7 @@ Total Mailboxes: 7175
 
 Average RunTime: 60 Seconds  
 
-Filtering for Largest mailboxes: 
+Filtering for Largest mailboxes: 9 minutes  
 
 Filtering for smallest mailboxes:   
 
