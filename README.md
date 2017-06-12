@@ -24,12 +24,11 @@ Environment Tested on
 Total Databases: 265  
 Total Mailboxes: 7175  
 
-Average RunTime without filter for mailbox size  
-60 Seconds  
+Average RunTime: 60 Seconds  
 
-Filtering for Largest mailboxes  
+Filtering for Largest mailboxes: 
 
-Filtering for smallest mailboxes  
+Filtering for smallest mailboxes:   
 
 ## Contributing
 
