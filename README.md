@@ -9,27 +9,27 @@ PowerShell script that evenly distributes the number of Exchange mailboxes per d
 Download the Optimize-MailboxesPerDatabase.ps1 file
 
 ## Basic Examples
-Redistribute mailboxes
-  .\Optimize-MailboxesPerDatabase.ps1 -Databases 'USDAG-003', 'USDAG-062', 'USDAG-262'
+Redistribute mailboxes  
+  .\Optimize-MailboxesPerDatabase.ps1 -Databases 'USDAG-003', 'USDAG-062', 'USDAG-262'  
 
-Redistribute mailboxes, move the smallest mailboxes 
-  .\Optimize-MailboxesPerDatabase.ps1 -Databases 'USDAG-003', 'USDAG-062', 'USDAG-262' -BySize Smallest
+Redistribute mailboxes, move the smallest mailboxes   
+  .\Optimize-MailboxesPerDatabase.ps1 -Databases 'USDAG-003', 'USDAG-062', 'USDAG-262' -BySize Smallest  
 
-Redistribute mailboxes, move the largest mailboxes
-  .\Optimize-MailboxesPerDatabase.ps1 -Databases 'USDAG-003', 'USDAG-062', 'USDAG-262' -BySize Largest  
+Redistribute mailboxes, move the largest mailboxes  
+  .\Optimize-MailboxesPerDatabase.ps1 -Databases 'USDAG-003', 'USDAG-062', 'USDAG-262' -BySize Largest    
 
 ## Script Processing Time
 
-Environment Tested on 
-Total Databases: 265
-Total Mailboxes: 7175
+Environment Tested on  
+Total Databases: 265  
+Total Mailboxes: 7175  
 
-Average RunTime without filter for mailbox size
-60 Seconds
+Average RunTime without filter for mailbox size  
+60 Seconds  
 
-Filtering for Largest mailboxes
+Filtering for Largest mailboxes  
 
-Filtering for smallest mailboxes
+Filtering for smallest mailboxes  
 
 ## Contributing
 
